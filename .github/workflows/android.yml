@@ -32,7 +32,7 @@ jobs:
 
         with:
 
-          haxe-version: 4.2.3
+          haxe-version: 4.2.5
 
           
 
@@ -84,11 +84,11 @@ jobs:
 
           haxelib setup "%HAXELIB_ROOT%"
 
-          haxelib install lime 7.9.0 --quiet
+          haxelib install lime 8.0.0 --quiet
 
           haxelib install openfl --quiet
 
-          haxelib install flixel 4.9.0 --quiet
+          haxelib install flixel 4.11.0 --quiet
 
           haxelib install hxcpp --quiet
 
